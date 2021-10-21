@@ -3,7 +3,7 @@ package com.zegume.springbootyaml;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.zegume.springbootyaml")
 public class SpringbootYamlApplication {
 
 	public static void main(String[] args) {
