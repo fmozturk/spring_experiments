@@ -1,4 +1,10 @@
 spring:
   main:
     banner-mode: off
+  config:
+    # Database connection information file
+    import: file:D:/mehmeto/development/spring/spring_experiments/springboot_yaml/jdbc.properties
+
+basicencrypt:
+  password: ${jdbc.password}
 

@@ -1,9 +1,10 @@
 package com.zegume.springbootyaml;
 
-import org.springframework.context.annotation.Bean;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
+@ConfigurationProperties(prefix = "basicencrypt")
 public class BasicEncrypt {
 
     private String password = "default";
